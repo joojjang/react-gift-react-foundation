@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 
-// import { vars } from "@/styles";
-import { vars } from "../../../../styles";
+import { vars } from "@/styles";
 
 type ResponseGridStyle = {
   [key in keyof typeof vars.breakpoints]?: number;

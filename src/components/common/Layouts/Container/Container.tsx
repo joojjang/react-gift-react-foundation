@@ -1,8 +1,7 @@
 import styled from "@emotion/styled";
 import { forwardRef } from "react";
 
-// import { vars } from "@/styles";
-import { vars } from "../../../../styles";
+import { vars } from "@/styles";
 
 type Props = {
   maxWidth?: string;
